@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="vendors/jquery-3.2.1.min.js"></script>
+        <script src="scripts/script.js"></script>
+        <link type="text/css" rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Employee Salary Calculator</h1>
+        </header>
+        <main>
+            <section id="inputArea">
+                <input type="text" placeholder="First Name" id="firstIn" />
+                <input type="text" placeholder="Last Name" id="lastIn" />
+                <input type="text" placeholder="Employee ID Number" id="eNoIn" />
+                <input type="text" placeholder="Job Title" id="jobTitleIn" />
+                <input type="text" placeholder="Annual Salary" id="salaryIn" />
+                <button id="addEmployeeButton">Submit</button>
+            </section>
+            <section id="dataArea">
+                <table id="dataTable">
+                    <caption>Employee Salary Data</caption>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Employee ID Number</th>
+                        <th>Job Title</th>
+                        <th>Annual Salary</th>
+                    </tr>
+                    <tbody id="dataBody">
+                    <tr>
+                        <td><span id="firstNameData">?</span></td>
+                        <td><span id="lastNameData">?</span></td>
+                        <td><span id="eNoData">?</span></td>
+                        <td><span id="jobTitleData">?</span></td>
+                        <td><span id="salaryData">?</span></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table id="mrcTable">
+                    <tr>
+                        <td class="mrcData" id="mrcTitle">Monthly Cost: </td>
+                        <td class="mrcData">$<span id="monthlyCostData">?</span></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
