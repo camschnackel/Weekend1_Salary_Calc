@@ -24,11 +24,6 @@ function submission() {
     var mcd = parseInt($('#monthlyCostData').text());
     console.log('Current Monthly cost is ' + mcd);
     $('#monthlyCostData').text(mcd + mrc);
-    /* employeeArray[employeeArray.length - 1].salary/12;
-    mrc *= 100;
-    mrc = Math.round(mrc);
-    mrc /= 100; */
-    //$('#monthlyCostData').text(mrc + $('#monthlyCostData').val());
     $('#firstIn').val('');
     $('#lastIn').val('');
     $('#eNoIn').val('');
