@@ -1,13 +1,8 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
-
-}
-
-#inputArea {
+h1, td, #inputArea {
     text-align: center;
 }
 
@@ -22,12 +17,8 @@ caption, #mrcTitle {
 }
 
 th {
-    width: 12%;
+    width: 20%;
     text-decoration: underline;
-}
-
-td {
-    text-align: center;
 }
 
 #mrcTable {
