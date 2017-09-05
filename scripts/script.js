@@ -10,7 +10,6 @@ function startup() {
 var mrc = 0;
 
 function submission() {
-    console.log('button working');
     new employeeData($('#firstIn').val(), $('#lastIn').val(), $('#eNoIn').val(), $('#jobTitleIn').val(), $('#salaryIn').val());
 
     $("#dataTable > #dataBody:last-child").append("<tr><td><span id='firstNameData'><td><span id='lastNameData'><td><span id='eNoData'><td><span id='jobTitleData'><td><span id='salaryData'><td><span id='deleteEmployee'>");
@@ -60,6 +59,4 @@ function calcMonthly(value) {
     MonthlyAmt = Math.round(MonthlyAmt);
     MonthlyAmt /= 100;
     return MonthlyAmt;
-}
-
-console.log('Function Test, 10000 monthly is ' + calcMonthly(10000));
+};
